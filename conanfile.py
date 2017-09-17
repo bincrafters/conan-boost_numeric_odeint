@@ -2,33 +2,33 @@ from conans import ConanFile, tools, os
 
 class BoostNumeric_OdeintConan(ConanFile):
     name = "Boost.Numeric_Odeint"
-    version = "1.64.0"
+    version = "1.65.1"
     short_paths = True
     url = "https://github.com/bincrafters/conan-boost-odeint"
-    description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
+    description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["odeint"]
-    requires =  "Boost.Array/1.64.0@bincrafters/testing", \
-                      "Boost.Assert/1.64.0@bincrafters/testing", \
-                      "Boost.Bind/1.64.0@bincrafters/testing", \
-                      "Boost.Compute/1.64.0@bincrafters/testing", \
-                      "Boost.Config/1.64.0@bincrafters/testing", \
-                      "Boost.Core/1.64.0@bincrafters/testing", \
-                      "Boost.Function/1.64.0@bincrafters/testing", \
-                      "Boost.Fusion/1.64.0@bincrafters/testing", \
-                      "Boost.Iterator/1.64.0@bincrafters/testing", \
-                      "Boost.Math/1.64.0@bincrafters/testing", \
-                      "Boost.Mpi/1.64.0@bincrafters/testing", \
-                      "Boost.Mpl/1.64.0@bincrafters/testing", \
-                      "Boost.Multi_Array/1.64.0@bincrafters/testing", \
-                      "Boost.Numeric_Ublas/1.64.0@bincrafters/testing", \
-                      "Boost.Preprocessor/1.64.0@bincrafters/testing", \
-                      "Boost.Range/1.64.0@bincrafters/testing", \
-                      "Boost.Static_Assert/1.64.0@bincrafters/testing", \
-                      "Boost.Throw_Exception/1.64.0@bincrafters/testing", \
-                      "Boost.Type_Traits/1.64.0@bincrafters/testing", \
-                      "Boost.Units/1.64.0@bincrafters/testing", \
-                      "Boost.Utility/1.64.0@bincrafters/testing"
+    requires =  "Boost.Array/1.65.1@bincrafters/testing", \
+                      "Boost.Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Bind/1.65.1@bincrafters/testing", \
+                      "Boost.Compute/1.65.1@bincrafters/testing", \
+                      "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Function/1.65.1@bincrafters/testing", \
+                      "Boost.Fusion/1.65.1@bincrafters/testing", \
+                      "Boost.Iterator/1.65.1@bincrafters/testing", \
+                      "Boost.Math/1.65.1@bincrafters/testing", \
+                      "Boost.Mpi/1.65.1@bincrafters/testing", \
+                      "Boost.Mpl/1.65.1@bincrafters/testing", \
+                      "Boost.Multi_Array/1.65.1@bincrafters/testing", \
+                      "Boost.Numeric_Ublas/1.65.1@bincrafters/testing", \
+                      "Boost.Preprocessor/1.65.1@bincrafters/testing", \
+                      "Boost.Range/1.65.1@bincrafters/testing", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Throw_Exception/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/testing", \
+                      "Boost.Units/1.65.1@bincrafters/testing", \
+                      "Boost.Utility/1.65.1@bincrafters/testing"
 
                       #array3 assert1 bind3 compute14 config0 core2 function5 fusion5 iterator5 math8 mpi14 mpl5 multi_array6 numeric~ublas12 preprocessor0 range7 static_assert1 throw_exception2 type_traits3 units12 utility5
                       
