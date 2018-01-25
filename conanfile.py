@@ -8,7 +8,8 @@ class BoostNumeric_OdeintConan(ConanFile):
     name = "boost_numeric_odeint"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_numeric_odeint"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["odeint"]
     is_header_only = True
 
