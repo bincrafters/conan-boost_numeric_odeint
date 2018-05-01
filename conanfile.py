@@ -26,7 +26,6 @@ class BoostNumeric_OdeintConan(ConanFile):
         "boost_fusion/1.67.0@bincrafters/testing",
         "boost_iterator/1.67.0@bincrafters/testing",
         "boost_math/1.67.0@bincrafters/testing",
-        "boost_mpi/1.67.0@bincrafters/testing",
         "boost_mpl/1.67.0@bincrafters/testing",
         "boost_multi_array/1.67.0@bincrafters/testing",
         "boost_numeric_ublas/1.67.0@bincrafters/testing",
