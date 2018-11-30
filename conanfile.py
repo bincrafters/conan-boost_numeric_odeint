@@ -4,7 +4,7 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.67.0@bincrafters/testing")
+base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostNumeric_OdeintConan(base.BoostBaseConan):
     name = "boost_numeric_odeint"
@@ -22,6 +22,7 @@ class BoostNumeric_OdeintConan(base.BoostBaseConan):
         "boost_fusion",
         "boost_iterator",
         "boost_math",
+        "boost_mpi",
         "boost_mpl",
         "boost_multi_array",
         "boost_numeric_ublas",
@@ -33,5 +34,3 @@ class BoostNumeric_OdeintConan(base.BoostBaseConan):
         "boost_units",
         "boost_utility"
     ]
-
-
