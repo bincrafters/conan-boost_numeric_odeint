@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.67.0@bincrafters/testing")
 
 class BoostNumeric_OdeintConan(base.BoostBaseConan):
     name = "boost_numeric_odeint"
+    version = "1.67.0"
     url = "https://github.com/bincrafters/conan-boost_numeric_odeint"
     lib_short_names = ["odeint"]
     header_only_libs = ["odeint"]
